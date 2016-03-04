@@ -5,7 +5,7 @@ svm_output_dir_files=/home/rosario/Desktop/project_pp/4.SingleSeq_sets/4.svm_sin
 
 for file in $sets_input_dir_files/*.txt; do
 	base=`basename $file .txt`
-	python program_svm_format.py $file $svm_output_dir_files/$base.svm
+	python program1_svm_format.py $file $svm_output_dir_files/$base.svm
 
 
 done

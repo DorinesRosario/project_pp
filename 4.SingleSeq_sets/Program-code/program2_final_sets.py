@@ -9,8 +9,8 @@ aa_sequence = []
 structure = [] 
 
 import linecache
-#with open('stride.3line', 'r') as file:
-with open('test_stride.txt', 'r') as file:
+with open('stride.3line', 'r') as file:
+#with open('test_stride.txt', 'r') as file:
 	lines = file.readlines()
 
 line = 1
@@ -39,42 +39,186 @@ seq_dataset = {x:list(y) for x,y in zip(keys, zip(*values))}
 
 #__________________________________________________________________
 
+#DATA SET_0
 
+prep_set_0 = []
 
 with open('prep_set_file0.txt', 'r') as fi:
 	#open the new file here
 	for lines in fi:
 		line = lines.split()
-		print line
-		print line[1]
-		seq_name = line[1]
-		if seq_name in seq_dataset:
-			print 'blabla'
-		
-		
-				
-
+		#print line
+		#print line[1]
+		prep_set_0.append(line[1])
 
 fi.close()
 
-"""
+#print prep_set_0
+final_setfile_0 = open('final_set_file0.txt', 'w+')
+for seq_name in prep_set_0:
+	if seq_name in seq_dataset:
+		print seq_name
+		print ('\n'.join(seq_dataset[seq_name]))
+		final_setfile_0.write(seq_name)
+		final_setfile_0.write('\n')
+		final_setfile_0.write(('\n'.join(seq_dataset[seq_name])))
+		final_setfile_0.write('\n')
+
+final_setfile_0.close()
 
 
-with open('cluster_results.clstr', 'r') as fi:
-	CDhit_headseq = open('CDhit_seq_name.txt', 'w+')
-	for line in fi:
-		row = line.split()
-		if row[0] in ['0', '1', '2', '3', '4']:
-			#print row
-			for char in range(len(row)):
-				if '>' in row[char]:
-					CDhit_headseq.write(row[0])
-					CDhit_headseq.write(' ')
-					CDhit_headseq.write(row[char][:-3])
-					CDhit_headseq.write('\n')
 
-"""
+#__________________________________________________________________
+
+#DATA SET_1
+
+prep_set_1 = []
+
+with open('prep_set_file1.txt', 'r') as fi:
+	#open the new file here
+	for lines in fi:
+		line = lines.split()
+		#print line
+		#print line[1]
+		prep_set_1.append(line[1])
+
+fi.close()
+
+#print prep_set_1
+final_setfile_1 = open('final_set_file1.txt', 'w+')
+for seq_name in prep_set_1:
+	if seq_name in seq_dataset:
+		print seq_name
+		print ('\n'.join(seq_dataset[seq_name]))
+		final_setfile_1.write(seq_name)
+		final_setfile_1.write('\n')
+		final_setfile_1.write(('\n'.join(seq_dataset[seq_name])))
+		final_setfile_1.write('\n')
+
+final_setfile_1.close()
+
+
+#__________________________________________________________________
+
+#DATA SET_2
+
+prep_set_2 = []
+
+with open('prep_set_file2.txt', 'r') as fi:
+	#open the new file here
+	for lines in fi:
+		line = lines.split()
+		#print line
+		#print line[1]
+		prep_set_2.append(line[1])
+
+fi.close()
+
+#print prep_set_2
+final_setfile_2 = open('final_set_file2.txt', 'w+')
+for seq_name in prep_set_2:
+	if seq_name in seq_dataset:
+		print seq_name
+		print ('\n'.join(seq_dataset[seq_name]))
+		final_setfile_2.write(seq_name)
+		final_setfile_2.write('\n')
+		final_setfile_2.write(('\n'.join(seq_dataset[seq_name])))
+		final_setfile_2.write('\n')
+
+final_setfile_2.close()
+
+
+#__________________________________________________________________
+
+#DATA SET_3
+
+prep_set_3 = []
+
+with open('prep_set_file3.txt', 'r') as fi:
+	#open the new file here
+	for lines in fi:
+		line = lines.split()
+		#print line
+		#print line[1]
+		prep_set_3.append(line[1])
+
+fi.close()
+
+#print prep_set_3
+final_setfile_3 = open('final_set_file3.txt', 'w+')
+for seq_name in prep_set_3:
+	if seq_name in seq_dataset:
+		print seq_name
+		print ('\n'.join(seq_dataset[seq_name]))
+		final_setfile_3.write(seq_name)
+		final_setfile_3.write('\n')
+		final_setfile_3.write(('\n'.join(seq_dataset[seq_name])))
+		final_setfile_3.write('\n')
+
+final_setfile_3.close()
+
+
+#__________________________________________________________________
+
+#DATA SET_4
+
+prep_set_4 = []
+
+with open('prep_set_file4.txt', 'r') as fi:
+	#open the new file here
+	for lines in fi:
+		line = lines.split()
+		#print line
+		#print line[1]
+		prep_set_4.append(line[1])
+
+fi.close()
+
+#print prep_set_4
+final_setfile_4 = open('final_set_file4.txt', 'w+')
+for seq_name in prep_set_4:
+	if seq_name in seq_dataset:
+		print seq_name
+		print ('\n'.join(seq_dataset[seq_name]))
+		final_setfile_4.write(seq_name)
+		final_setfile_4.write('\n')
+		final_setfile_4.write(('\n'.join(seq_dataset[seq_name])))
+		final_setfile_4.write('\n')
+
+final_setfile_4.close()
+
+
+#__________________________________________________________________
+
+#DATA SET_5
+
+prep_set_5 = []
+
+with open('prep_set_file5.txt', 'r') as fi:
+	#open the new file here
+	for lines in fi:
+		line = lines.split()
+		#print line
+		#print line[1]
+		prep_set_5.append(line[1])
+
+fi.close()
+
+#print prep_set_5
+final_setfile_5 = open('final_set_file5.txt', 'w+')
+for seq_name in prep_set_5:
+	if seq_name in seq_dataset:
+		print seq_name
+		print ('\n'.join(seq_dataset[seq_name]))
+		final_setfile_5.write(seq_name)
+		final_setfile_5.write('\n')
+		final_setfile_5.write(('\n'.join(seq_dataset[seq_name])))
+		final_setfile_5.write('\n')
+
+final_setfile_5.close()
+
+
+
 print 'done'
 
-#print ([item, '\n'.join(seq_dataset.get(item))] for item in seq_dataset)
 

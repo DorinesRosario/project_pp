@@ -8,7 +8,7 @@ structure = []
 
 
 import linecache
-with open('final_set_file0', 'r') as file:
+with open('final_set_file0.txt', 'r') as file:
 #with open('test_stride.txt', 'r') as file:
 	lines = file.readlines()
 #head_sequence_file = open('head_sequence_file.txt', 'w+')
@@ -79,19 +79,31 @@ for (slug, title) in aa_seq_list.items():
 
 #creating the SVM format of sets; Set_0:
 
+
 SVM_0 = open('svm_format_set_0.txt', 'w+')
 for (i, item) in enumerate(aa_seq_list): #run by sequences
 	for (z, item2) in enumerate(item): #run by aa in sequence
+		#position_aa =  str(amino_acids_number[aa_seq_list[i][z]])
 		if structure_list[i][z] == 'S':
 			#print aa_seq_list[i][z]
 			#print structure_list[i][z]
 			#print ' '
 			print '+1 ', amino_acids_number[aa_seq_list[i][z]],':1'
-			SVM_0.write('+1 ', amino_acids_number[aa_seq_list[i][z]],':1')
-			SVM_0.write('\n')
-		else:
-			print '-1 ', amino_acids_number[aa_seq_list[i][z]],':1'
-			SVM_0.write('-1 ', amino_acids_number[aa_seq_list[i][z]],':1')
+			SVM_0.write('+1 ')
+			SVM_0.write(str(amino_acids_number[aa_seq_list[i][z]]))
+			SVM_0.write(':1')
 			SVM_0.write('\n')
 
+		else:
+			print '-1 ', amino_acids_number[aa_seq_list[i][z]],':1'
+			SVM_0.write('-1 ')
+			SVM_0.write(str(amino_acids_number[aa_seq_list[i][z]]))
+			SVM_0.write(':1')
+			SVM_0.write('\n')
+			
+
+
 SVM_0.close()
+
+
+

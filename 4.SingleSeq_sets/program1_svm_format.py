@@ -104,3 +104,6 @@ for (i, item) in enumerate(aa_seq_list): #run by sequences
 
 
 SVM_0.close()
+
+
+

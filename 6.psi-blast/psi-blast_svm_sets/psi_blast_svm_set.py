@@ -1,12 +1,12 @@
-from collections import defaultdict
+
 import sys
 
 
 #TASK 4: ADD EVOLUTIONARY INFORMATION BY RUNNING PSI-BLAST AND EXTRACTING THE INFORMATION
 
-
 #create svm set files considering CD-hit clustering for psi-blast
 #________________________________________________________________
+
 
 
 #list with the sequences_name by the same order as psi_blast svm format files
@@ -81,8 +81,9 @@ set_file5.close()
 print set_5
 
 
-#input the psi-blast files in svm format and connected them with the respective seq_name
-#_______________________________________________________________________________________
+
+#input the psi-blast files in svm format and connect them with the respective seq_name using a dictionary
+#________________________________________________________________________________________________________
 
 psi_blast_list = []
 
@@ -109,49 +110,20 @@ print 'stride_database len:', len(stride_database)
 print stride_database.keys()
 
 
-#create a for loop over the set lists to distribut the psi-blast files by clustering
-#___________________________________________________________________________________
 
-svm_set0 = defaultdict(list)
-svm_set1 = defaultdict(list)
-svm_set2 = defaultdict(list)
-svm_set3 = defaultdict(list)
-svm_set4 = defaultdict(list)
-svm_set5 = defaultdict(list)
+#create a for loop over the set_cluster lists to distribute the psi-blast files by C-hit clustering
+#__________________________________________________________________________________________________
 
-
-for keys in stride_database.items:
-	if keys in set_0:
-		svm_set0[keys].append(values)
-	elif keys in set_1:
-		svm_set0[keys].append(values)
-	elif keys in set_2:
-		svm_set0[keys].append(values)
-	elif keys in set_3:
-		svm_set0[keys].append(values)
-	elif keys in set_4:
-		svm_set0[keys].append(values)
-	elif keys in set_5:
-		svm_set0[keys].append(values)
+svm_set0 = []
+svm_set1 = []
+svm_set2 = []
+svm_set3 = []
+svm_set4 = []
+svm_set5 = []
 
 
-print 'svm set 0:', svm_set0
-print 'svm set 1:', svm_set1
-print 'svm set 2:', svm_set2
-print 'svm set 3:', svm_set3
-print 'svm set 4:', svm_set4
-print 'svm set 5:', svm_set5
-
-"""
-svm_set0 = defaultdict(list)
-svm_set1 = defaultdict(list)
-svm_set2 = defaultdict(list)
-svm_set3 = defaultdict(list)
-svm_set4 = defaultdict(list)
-svm_set5 = defaultdict(list)
-
-
-for keys, valeus in stride_database:
+for keys, values in stride_database.iteritems():
+	print keys
 	if keys in set_0:
 		svm_set0.append(stride_database[keys])
 	elif keys in set_1:
@@ -164,4 +136,57 @@ for keys, valeus in stride_database:
 		svm_set4.append(stride_database[keys])
 	elif keys in set_5:
 		svm_set5.append(stride_database[keys])
-"""
+
+
+print 'svm set 0:', svm_set0
+print 'svm set 1:', svm_set1
+print 'svm set 2:', svm_set2
+print 'svm set 3:', svm_set3
+print 'svm set 4:', svm_set4
+print 'svm set 5:', svm_set5
+
+
+#write set files for psi-blast in svm format:
+#____________________________________________
+
+
+with open('psi_blast_svm_set0.txt', 'w') as svm_file0:
+	for psi_blast_svm in svm_set0:
+		svm_file0.write(psi_blast_svm)
+		svm_file0.write('\n')
+svm_file0.close()
+
+
+with open('psi_blast_svm_set1.txt', 'w') as svm_file1:
+	for psi_blast_svm in svm_set1:
+		svm_file1.write(psi_blast_svm)
+		svm_file1.write('\n')
+svm_file1.close()
+
+
+with open('psi_blast_svm_set2.txt', 'w') as svm_file2:
+	for psi_blast_svm in svm_set2:
+		svm_file2.write(psi_blast_svm)
+		svm_file2.write('\n')
+svm_file2.close()
+
+
+with open('psi_blast_svm_set3.txt', 'w') as svm_file3:
+	for psi_blast_svm in svm_set3:
+		svm_file3.write(psi_blast_svm)
+		svm_file3.write('\n')
+svm_file3.close()
+
+
+with open('psi_blast_svm_set4.txt', 'w') as svm_file4:
+	for psi_blast_svm in svm_set4:
+		svm_file4.write(psi_blast_svm)
+		svm_file4.write('\n')
+svm_file4.close()
+
+
+with open('psi_blast_svm_set5.txt', 'w') as svm_file5:
+	for psi_blast_svm in svm_set0:
+		svm_file5.write(psi_blast_svm)
+		svm_file5.write('\n')
+svm_file5.close()

@@ -1,0 +1,10 @@
+NOTES FOR THE REPORT:
+_____________________
+
+
+
+
+SVM:
+* http://svmlight.joachims.org/
+* http://machine-learning-course.joachims.org/'
+

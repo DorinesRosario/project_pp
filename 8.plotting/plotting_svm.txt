@@ -1,0 +1,49 @@
+#### SINGLE SEQUENCE SVM ####
+
+§ linear kernel;
+	MCC each set file; average;
+	MCC each pred file; average;
+
+
+
+#### PSI-BLAST SVM ####
+
+§ lienar kernel: default parameters;
+	MCC each set file; average;
+	MCC each pred file; average;
+
+§ polynominal kernel: default parameters;
+	MCC each set file; average;
+	MCC each pred file; average;
+
+§ radial kernel: default parameters;
+	MCC each set file; average;
+	MCC each pred file; average;
+
+§ sigmoid kernel: default parameters;
+	MCC each set file; average;
+	MCC each pred file; average;
+
+§ user defined kernel: default parameters;
+	MCC each set file; average;
+	MCC each pred file; average;
+
+
+
+§ lienar kernel: -c, -w changed parameters;
+	MCC each set file; average;
+	MCC each pred file; average;
+
+
+§ radial kernel: -c, -g changed parameters;
+	MCC each set file; average;
+	MCC each pred file; average;
+
+
+
+
+#### FINAL MODEL ####
+
+§ optimal kernel: optimal parameters (default or custom);
+	MCC each set file; average;
+	MCC each pred file; average;

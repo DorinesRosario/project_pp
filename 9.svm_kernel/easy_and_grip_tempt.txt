@@ -1,0 +1,28 @@
+rosario@elof02:~/libsvm-2.71/python$ bash bash_easypy.sh 
+Traceback (most recent call last):
+  File "easy.py", line 27, in <module>
+    assert os.path.exists(svmscale_exe),"svm-scale executable not found"
+AssertionError: svm-scale executable not found
+rosario@elof02:~/libsvm-2.71/python$ bash bash_easypy.sh 
+Traceback (most recent call last):
+  File "grid.py", line 345, in <module>
+    main()
+  File "grid.py", line 272, in main
+    process_options()
+  File "grid.py", line 91, in process_options
+    assert os.path.exists(svmtrain_exe),"svm-train executable not found"    
+AssertionError: svm-train executable not found
+rosario@elof02:~/libsvm-2.71/python$ bash bash_easypy.sh 
+Traceback (most recent call last):
+  File "grid.py", line 345, in <module>
+    main()
+  File "grid.py", line 272, in main
+    process_options()
+  File "grid.py", line 91, in process_options
+    assert os.path.exists(svmtrain_exe),"svm-train executable not found"    
+AssertionError: svm-train executable not found
+rosario@elof02:~/libsvm-2.71/python$ bash bash_easypy.sh 
+Traceback (most recent call last):
+  File "easy.py", line 27, in <module>
+    assert os.path.exists(svmscale_exe),"svm-scale executable not found"
+AssertionError: svm-scale executable not found

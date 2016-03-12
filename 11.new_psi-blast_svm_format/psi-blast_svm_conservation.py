@@ -18,7 +18,7 @@ line = 1
 svm_psi_blast = open(output_file, 'w')
 for lines in psi_blast_file:
 	for rows in conservation_file:
-		print lines, rows
+		print '.'
 	svm_psi_blast.write(lines)
 	#svm_psi_blast.write(' ')
 	svm_psi_blast.write(rows)

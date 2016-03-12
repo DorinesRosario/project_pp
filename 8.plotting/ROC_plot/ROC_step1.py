@@ -20,8 +20,8 @@ line = 1
 roc_prep = open('roc_step1.txt', 'w' )
 for feature in file_set_svm:
 	for prediction in file_set_pred:
-		line = line + 1
-		#print '.'
+		#line = line + 1
+		print '.'
 		#print feature[0:2], prediction
 	roc_prep.write(feature[0:2])
 	roc_prep.write(' ')

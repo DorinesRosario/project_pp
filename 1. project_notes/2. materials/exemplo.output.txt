@@ -1,0 +1,43 @@
+>169L
+MNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNCNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDAAAAALAAAAWAAATPNRAKRVITTFRTGTWDAYK
+CCHHHHHHHHHCCCCCCCCCCCCCSSSCCCSSSSCCCCHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHCCHHHHHHHHCCHHHHHHHHHHHHHHCHHHHHHCHHHHHHHHHCCHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHCCCHHHC
+(exemplo de protein no input; 1a linha: name; 2a linha: sequencia de amino acidos; 3a linha: estrutura topologica da sequencia)
+
+
+amino_acids = ['R', 'K', 'D', 'E', 'Q', 'N', 'H', 'S', 'T', 'Y', 'C', 'M', 'W', 'A', 'I', 'L', 'F', 'V', 'P', 'G']
+
+R:1 K:2 D:3 E:4 Q:5 N:6 H:7 S:8 T:9 Y:10 C:11 M:12 W:13 A:14 I:15 L:16 F:17 V:18 P:19 G:20
+(esta ordem não é obrigatória; tenho de numerar todos os aa)
+
+nota: como tenho de identificar como exemplos positivos amino acidos na estrutra 'S' estes vão ser +1; amino acidos que na estrutra seja 'H' ou 'C' vão ser exemplos negativos (-1) 
+
+exemplo de output com base no input de cima:
+(tem que se apresentado por linha cada amino acido exemplo positivo ou negativo)
+
+-1 12:1
+-1 6:1
+-1 15:1
+(...)
++1 10:1
++1 9:1
++1 15:1
+
+
+explicação: 
+
+-1 12:1 _____ 1º amino acido da sequência é 'C' na estrutura (3ª linha) então é um exemplo negativo -1; e é 'M' na sequencia, que corresponde ao 12 (M:12) 
+-1 6:1 ______ 2º amino acido da sequência é 'C' na estrutura (3ª linha) então é um exemplo negativo -1; e é 'N' na sequencia, que corresponde ao 6 (N:6) 
+-1 15:1 _____ 3º amino acido da sequência é 'H' na estrutura (3ª linha) então é um exemplo negativo -1; e é 'I' na sequencia, que corresponde ao 15 (I:15) 
+(...)
++1 10:1 _____ 25º amino acido da sequência é 'S' na estrutura (3ª linha) então é um exemplo positivo +1; e é 'Y' na sequencia, que corresponde ao 10 (M:10) 
++1 9:1 ______ 26º amino acido da sequência é 'S' na estrutura (3ª linha) então é um exemplo positivo +1; e é 'T' na sequencia, que corresponde ao 9 (T:9)
++1 15:1 _____ 27º amino acido da sequência é 'S' na estrutura (3ª linha) então é um exemplo positivo +1; e é 'I' na sequencia, que corresponde ao 15 (I:15)
+
+o output poderia ser:
+(que se torna muito mais fácil de entender, mas que pensei ser mais complexo de conseguir a programar :p)
+
+-1 1:0 2:0 3:0 4:0 5:0 6:0 7:0 8:0 9:0 10:0 11:0 12:1 13:0 14:0 15:0 16:0 17:0 18:0 19:0 20:0 (para o 1º amino ácido)
+(...)
++1 1:0 2:0 3:0 4:0 5:0 6:0 7:0 8:0 9:0 10:1 11:0 12:0 13:0 14:0 15:0 16:0 17:0 18:0 19:0 20:0 (para o 25º amino ácido)
+
+

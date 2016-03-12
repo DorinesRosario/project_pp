@@ -4,7 +4,7 @@ svm_path=/home/rosario/Desktop/svm_light/
 
 for k in 0 ; do
 	for i in $input_dir_svm_files/*.svm ; do
-		$svm_path/svm_learn -t $k -j 2.75 $i.train "${i}${k}".model &>"${i}${k}${j}".learn.log
+		$svm_path/svm_learn -t $k -j 2.35 $i.train "${i}${k}".model &>"${i}${k}${j}".learn.log
 	done
 
 	for i in $input_dir_svm_files/*.svm ; do

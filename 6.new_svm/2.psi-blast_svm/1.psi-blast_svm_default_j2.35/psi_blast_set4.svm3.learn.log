@@ -11,4 +11,20 @@ WARNING: Relaxing epsilon on KT-Conditions (1.000000).
 WARNING: Relaxing epsilon on KT-Conditions (10.000000).
 ...................................................
 WARNING: Relaxing epsilon on KT-Conditions (100.000000).
-....................................
+....................................................
+WARNING: Relaxing epsilon on KT-Conditions (1000.000000).
+...................................................................................done. (4950 iterations)
+Optimization finished (43422 misclassified, maxdiff=673.37317).
+Runtime in cpu-seconds: 8169.21
+Number of SV: 4381 (including 4353 at upper bound)
+L1 loss: loss=0.00000
+Norm of weight vector: |w|=-nan
+Norm of longest example vector: |x|=1.00000
+Estimated VCdim of classifier: VCdim<=-nan
+Computing XiAlpha-estimates...done
+Runtime for XiAlpha-estimates in cpu-seconds: 0.06
+XiAlpha-estimate of the error: error<=47.43% (rho=1.00,depth=0)
+XiAlpha-estimate of the recall: recall=>40.97% (rho=1.00,depth=0)
+XiAlpha-estimate of the precision: precision=>20.33% (rho=1.00,depth=0)
+Number of kernel evaluations: 409127598
+Writing model file...done

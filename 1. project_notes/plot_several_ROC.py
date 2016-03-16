@@ -6,7 +6,7 @@ i=0
 while i<=3:
     actual = []
     predictions = []
-    sortroc=open('sortedroc'+str(i)+'.txt','r').readlines()
+    sortroc=open('*.txt','r').readlines()
     for line in sortroc:
         actual.append(float(line.split()[0]))
         predictions.append(float(line.split()[1]))

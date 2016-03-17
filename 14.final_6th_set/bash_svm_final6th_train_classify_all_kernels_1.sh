@@ -1,0 +1,13 @@
+#!/bin/bash
+input_dir_svm_files=/home/rosario/Desktop/project_pp/6.new_svm/2.psi-blast_svm/1.psi-blast_svm_default_j2.35/
+svm_path=/home/rosario/Desktop/svm_light/
+
+
+
+for i in $input_dir_svm_files/*.train ; do
+	$svm_path/svm_learn -t 2 -j 2.35 $i.train "${i}${k}".model &>"${i}${k}".learn.log
+done
+
+for s in $input_dir_svm_files/*.svm ; do
+	$svm_path/svm_classify $s.svm "${i}${k}".model "${i}${k}".pred &>"${i}${k}".classify.log
+done

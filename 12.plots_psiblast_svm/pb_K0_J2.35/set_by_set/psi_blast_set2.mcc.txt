@@ -1,0 +1,19 @@
+TP:
+1390
+
+FP:
+2149
+
+TN:
+11257
+
+FN:
+2265
+
+MCC:
+(TP * TN - FP * FN) /( (TP + FP)*(TP + FN)*(TN + FP)*(TN + FN) )
+0.222615009276
+
+Accuracy:
+(TP + TN)/(TP + TN + FP + FN)
+74.128128%

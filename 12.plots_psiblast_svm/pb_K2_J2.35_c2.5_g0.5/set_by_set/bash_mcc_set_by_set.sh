@@ -1,0 +1,11 @@
+#!/bin/bash
+input_files=/home/rosario/Desktop/project_pp/12.plots_psiblast_svm/pb_K2_J2.35_c2.5_g0.5/set_by_set/
+output_files=/home/rosario/Desktop/project_pp/12.plots_psiblast_svm/pb_K2_J2.35_c2.5_g0.5/set_by_set/
+
+for file in $input_files/*.svm2.50.5.pred; do
+	base=`basename $file .svm2.50.5.pred`
+	python mcc_script.py $input_files/$base.features.txt $input_files/$base.svm2.50.5.pred $output_files/$base.mcc.txt
+
+done
+
+#paste -d '' structure.topology.txt sequence.treated.txt > output.txt

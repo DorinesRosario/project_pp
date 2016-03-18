@@ -37,7 +37,7 @@ for files in list(glob.glob('*txt')):
 plt.legend(loc='lower right')
 plt.xlim([-0.1, 1.2])
 plt.ylim([-0.1, 1.2])
-plt.title('ROC - Single Sequence SVM')
+plt.title('ROC: optimazing SVM kernels using single sequence information')
 plt.ylabel('True Positive Rate')
 plt.xlabel('False Positive Rate')
 plt.show()

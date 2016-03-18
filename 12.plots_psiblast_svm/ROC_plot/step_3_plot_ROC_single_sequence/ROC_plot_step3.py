@@ -6,12 +6,12 @@ import glob
 import matplotlib.pyplot as plt
 import random
 
-colors = {0:'b',1:'r',2:'g'}
-legend = {0:'-t 0; -j 1.9', 1:'-t 0; -j 2.35', 2:'-t 2; -j 2.35'}
+colors = {0:'blue',1:'red',2:'grey', 3:'green', 4:'orange', 5:'purple'}
+legend = {0:'-t 0; -j 2.35', 1:'-t 1; -j 2.35', 2:'-t 2; -j 2.35', 3:'-t 3; -j2.35', 4:'-t2-j2.35-c2.5-g0.5', 5:'final model -t0-j2.35'}
 
 
 
-os.chdir('/home/rosario/Desktop/project_pp/8.plotting/5.ROC_plot/step_3_plot_ROC_single_sequence/')
+os.chdir('/home/rosario/Desktop/project_pp/12.plots_psiblast_svm/ROC_plot/step_3_plot_ROC_single_sequence/')
 
 
 fi = 0
@@ -30,14 +30,14 @@ for files in list(glob.glob('*txt')):
 
 	false_positive_rate, true_positive_rate, thresholds = roc_curve(dataset_features, svm_predictions)
 	roc_auc = auc(false_positive_rate, true_positive_rate)
-	plt.plot(false_positive_rate, true_positive_rate, colors[fi], label=legend[fi]+' = %0.5f'% roc_auc)
+	plt.plot(false_positive_rate, true_positive_rate, colors[fi], label=legend[fi]+' = %0.4f'% roc_auc)
 	plt.plot([0,1], [0,1], 'r--')
 	fi = fi + 1
 
 plt.legend(loc='lower right')
-plt.xlim([-0.1, 1.2])
+plt.xlim([-0.1, 1.5])
 plt.ylim([-0.1, 1.2])
-plt.title('ROC - Single Sequence SVM')
+plt.title('ROC: SVM adding evolutionary information')
 plt.ylabel('True Positive Rate')
 plt.xlabel('False Positive Rate')
 plt.show()

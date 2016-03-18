@@ -15,7 +15,7 @@ accuracy = [0.7487, 0, 0, 0.7551, 0.7277, 0.6885, 0.6165, 0.7277]
 fig, ax = plt.subplots()
 
 index = np.arange(n_groups)
-bar_width = 0.65
+bar_width = 0.35
 
 error_config = {'ecolor': '0.3'}
 
@@ -26,7 +26,7 @@ rect = plt.bar(index, accuracy, bar_width,
 
 autolabel(rect)
 
-plt.axis([-0.2, 8, 0, 0.85])
+plt.axis([-0.2, 8, 0, 1])
 
 plt.xlabel('SVM single sequence tested kernels')
 plt.ylabel('Accuracy')

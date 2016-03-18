@@ -15,7 +15,7 @@ accuracy = [0.3387, 0.5053, 0.2152, 0.2501, 0.5307, 0.2441]
 fig, ax = plt.subplots()
 
 index = np.arange(n_groups)
-bar_width = 0.45
+bar_width = 0.35
 
 error_config = {'ecolor': '0.3'}
 
@@ -26,7 +26,7 @@ rect = plt.bar(index, accuracy, bar_width,
 
 autolabel(rect)
 
-plt.axis([-0.2, 6, 0, 0.9])
+plt.axis([-0.2, 6, 0, 1])
 
 plt.xlabel('SVM multiple sequence evol_info; -t 3 -j 2.35 parameters')
 plt.ylabel('Accuracy')

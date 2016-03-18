@@ -15,7 +15,7 @@ MCC = [0.3288, 0.4026, 0.3124, 0.3080, 0.3055, 0.3193]
 fig, ax = plt.subplots()
 
 index = np.arange(n_groups)
-bar_width = 0.45
+bar_width = 0.35
 
 error_config = {'ecolor': '0.3'}
 
@@ -26,7 +26,7 @@ rect = plt.bar(index, MCC, bar_width,
 
 autolabel(rect)
 
-plt.axis([-0.2, 6, 0, 0.6])
+plt.axis([-0.2, 6, 0, 0.5])
 
 plt.xlabel('SVM multiple sequence evol_info; -t 2 -j 2.35 -c 2.5 -g 0.5 parameters')
 plt.ylabel('MCC')

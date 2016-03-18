@@ -15,7 +15,7 @@ MCC = [0.1226, 0.1251, 0.1016, 0.1052, 0.1378, 0.1226]
 fig, ax = plt.subplots()
 
 index = np.arange(n_groups)
-bar_width = 0.45
+bar_width = 0.35
 
 error_config = {'ecolor': '0.3'}
 
@@ -26,9 +26,9 @@ rect = plt.bar(index, MCC, bar_width,
 
 autolabel(rect)
 
-plt.axis([-0.2, 6, 0, 0.2])
+plt.axis([-0.2, 6, 0, 0.5])
 
-plt.xlabel('SVM single sequence predicting helices; linear kernel default parameters')
+plt.xlabel('SVM single sequence predicting helices; -t 0 default parameters')
 plt.ylabel('MCC')
 plt.title('MCC for single sequence predicting helices - test program')
 plt.xticks(index + bar_width/2, ('global MCC', 'set_1', 'set_2', 'set_3', 'set_4', 'set_5'))

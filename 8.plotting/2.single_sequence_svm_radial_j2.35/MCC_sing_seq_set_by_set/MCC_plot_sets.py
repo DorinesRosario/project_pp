@@ -15,7 +15,7 @@ MCC = [0.1589, 0, 0.1621, 0.1498, 0.1513]
 fig, ax = plt.subplots()
 
 index = np.arange(n_groups)
-bar_width = 0.45
+bar_width = 0.35
 
 error_config = {'ecolor': '0.3'}
 
@@ -26,11 +26,11 @@ rect = plt.bar(index, MCC, bar_width,
 
 autolabel(rect)
 
-plt.axis([-0.2, 5, 0, 0.2])
+plt.axis([-0.2, 5, 0, 0.5])
 
 plt.xlabel('SVM single sequence -t 2 -j 2.35')
 plt.ylabel('MCC')
-plt.title('MCC for each set selecting radial kernel and -j 2.35')
+plt.title('MCC  selecting -t 2 -j 2.35 in SVM single sequence')
 plt.xticks(index + bar_width/2, ('set_1', 'set_2', 'set_3', 'set_4', 'set_5'))
 plt.tight_layout()
 plt.show()

@@ -15,7 +15,7 @@ MCC = [-0.0059, 0, 0, 0.1529, 0.1528, 0.1446, 0.1773, 0.1528]
 fig, ax = plt.subplots()
 
 index = np.arange(n_groups)
-bar_width = 0.65
+bar_width = 0.35
 
 error_config = {'ecolor': '0.3'}
 
@@ -26,7 +26,7 @@ rect = plt.bar(index, MCC, bar_width,
 
 autolabel(rect)
 
-plt.axis([0, 8, 0, 0.2])
+plt.axis([0, 8, 0, 0.5])
 
 plt.xlabel('SVM single sequence tested kernels')
 plt.ylabel('MCC')

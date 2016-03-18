@@ -15,7 +15,7 @@ MCC = [-0.0201, -0.0316, -0.0014, -0.014, -0.0066, -0.0155]
 fig, ax = plt.subplots()
 
 index = np.arange(n_groups)
-bar_width = 0.45
+bar_width = 0.35
 
 error_config = {'ecolor': '0.3'}
 

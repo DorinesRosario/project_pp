@@ -216,7 +216,19 @@ with open('psi_blast_svm_set5.txt', 'w') as svm_file5:
 		svm_file5.write('\n')
 svm_file5.close()
 
-
+print len(set_0)
+print len(set_1)
+print len(set_2)
+print len(set_3)
+print len(set_4)
+print len(set_5)
+print len(svm_set0)
+print len(svm_set1)
+print len(svm_set2)
+print len(svm_set3)
+print len(svm_set4)
+print len(svm_set5)
+print len(name_list)
 
 
 print 'done, Dorines!'

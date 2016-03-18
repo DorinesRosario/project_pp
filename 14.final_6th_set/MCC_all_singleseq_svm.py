@@ -29,7 +29,7 @@ autolabel(rect)
 plt.axis([-0.2, 6, 0, 1])
 
 #plt.xlabel('SVM -t 0 -j 2.35 parameters: final model')
-plt.ylabel('SVM -t 0 -j 2.35 parameters')
+plt.ylabel('SVM -t 2 -j 2.35 parameters')
 plt.title('MCC  for the final model                                                                   .')
 plt.xticks(index + bar_width/2, ('MCC', 'Accuracy'))
 plt.tight_layout()

@@ -1,0 +1,379 @@
+﻿body {
+	width: 7.05in;
+	margin: 0in;
+	font: 12pt Times New Roman, Times, serif;
+	color: #000;
+	background-color: white;
+}
+img { 
+	page-break-inside: avoid; 
+}
+#menu {
+	display: none;
+}
+.nav {
+	display: none;
+}
+.kinAppl {
+	display: none;
+}
+#navigate {
+	display: none;
+	clear: both;
+}
+img.banner072 { width: 1px; height: 1px; }
+img.banner150 { width: 5.5in; height: 0.833in; clear: both; }
+div#fig1 { width: 4.5in;  }
+img#x001072 { width: 1px; height: 1px; }
+img#x001150 { width: 4.333in; height: 5in; margin-left: 0.084in; }
+div#fig2 { width: 4.55in;  }
+img#x002072 { width: 1px; height: 1px; }
+img#x002150 { width: 4.5in; height: 3.307in; }
+div#fig3 { width: 3.1in;  }
+img#x003072 { width: 1px; height: 1px; }
+img#x003150 { width: 3.06in; height: 2.42in; }
+div#fig4 { width: 4in;  }
+img#x004072 { width: 1px; height: 1px; }
+img#x004150 { width: 2.125in; height: 1.653in; margin-left: 0.8in; }
+div#fig5 { width: 4in;  }
+img#x005072 { width: 1px; height: 1px; }
+img#x005150 { width: 2in; height: 3.793in; margin-left: 1in; }
+div#fig6 { width: 4in;  }
+img#x006072 { width: 1px; height: 1px; }
+img#x006150 { width: 1.125in; height: 1.423in; margin-left: 1.3in; }
+div#fig7c { width: 6.9in; }
+div#fig7 { width: 3.3in;  }
+img#x007072 { width: 1px; height: 1px; }
+img#x007150 { width: 3.3in; height: 3.3in; }
+div#fig7x { width: 3.347in;  }
+img#x007x072 { width: 1px; height: 1px; }
+img#x007x150 { width: 3.347in; height: 3.3in; }
+div#fig8c { width: 6.9in; }
+div#fig8 { width: 3.3in;  }
+img#x008072 { width: 1px; height: 1px; }
+img#x008150 { width: 3.3in; height: 3.3in; }
+div#fig8x { width: 3.347in;  }
+img#x008x072 { width: 1px; height: 1px; }
+img#x008x150 { width: 3.347in; height: 3.3in; }
+div#fig9 { width: 3.71in;  }
+img#x009072 { width: 1px; height: 1px; }
+img#x009150 { width: 3.66in; height: 3.7in; }
+div#fig10 { width: 3.7in;  }
+img#x010072 { width: 1px; height: 1px; }
+img#x010150 { width: 3.62in; height: 3.687in; }
+div#fig11 { width: 4.6in;  }
+img#x011072 { width: 1px; height: 1px; }
+img#x011150 { width: 4.556in; height: 2.931in; }
+div#fig12 { width: 3.9in; }
+img#x012072 { width: 1px; height: 1px; }
+img#x012150 { width: 3.627in; height: 2.18in; }
+div#fig13 { width: 6.9in;  }
+img#x013072 { width: 1px; height: 1px; }
+img#x013150 { width: 4.62in; height: 2.473in; }
+div#fig14 { width: 1.92in; }
+img#x014072 { width: 1px; height: 1px; }
+img#x014150 { width: 1.873in; height: 2.0in; }
+div#fig15 { width: 7.0in;  }
+img#x015072 { width: 1px; height: 1px; }
+img#x015150 { width: 4.647in; height: 0.82in; }
+div#fig16 { width: 7.0in;  }
+img#x016072 { width: 1px; height: 1px; }
+img#x016150 { width: 4.42in; height: 1.88in; }
+div#fig17 { width: 7.0in;  }
+img#x017072 { width: 1px; height: 1px; }
+img#x017150 { width: 4.5in; height: 1.46in; }
+div#fig18 { width: 7.0in;  }
+img#x018072 { width: 1px; height: 1px; }
+img#x018150 { width: 4.453in; height: 0.687in; }
+div#fig19 { width: 7.0in;  }
+img#x019072 { width: 1px; height: 1px; }
+img#x019150 { width: 4.253in; height: 6.68in; }
+div#fig20 { width: 4.7in;  }
+img#x020072 { width: 1px; height: 1px; }
+img#x020150 { width: 4.607in; height: 3.22in; }
+div#fig21 { width: 4.6in;  }
+img#x021072 { width: 1px; height: 1px; }
+img#x021150 { width: 4.54in; height: 3.56in; }
+div#fig22 { width: 6.9in;  }
+img#x022072 { width: 1px; height: 1px; }
+img#x022150 { width: 4.127in; height: 3.887in; }
+div#fig23 { width: 3.0in;  }
+img#x023072 { width: 1px; height: 1px; }
+img#x023150 { width: 1.74in; height: 1.8in; }
+div#fig24 { width: 4.6in;  }
+img#x024072 { width: 1px; height: 1px; }
+img#x024150 { width: 4.5in; height: 1.4in; }
+div#fig25 { width: 3.4in;  }
+img#x025072 { width: 1px; height: 1px; }
+img#x025150 { width: 1.5in; height: 1.1in; }
+div#fig26 { width: 4.6in;  }
+img#x026072 { width: 1px; height: 1px; }
+img#x026150 { width: 4.5in; height: 1.52in; }
+div#fig27a { width: 6.9in;  }
+img#x027a072 { width: 1px; height: 1px; }
+img#x027a150 { width: 3.5in; height: 3.653in; }
+div#fig27b { width: 6.9in;  }
+img#x027b072 { width: 1px; height: 1px; }
+img#x027b150 { width: 4.44in; height: 2.953in; }
+div#fig27c { width: 6.9in;  }
+img#x027c072 { width: 1px; height: 1px; }
+img#x027c150 { width: 4.7in; height: 5.5in; }
+div#fig28 { width: 4.6in;  }
+img#x028072 { width: 1px; height: 1px; }
+img#x028150 { width: 4.5in; height: 6in; }
+div#fig29 { width: 4.35in;  }
+img#x029072 { width: 1px; height: 1px; }
+img#x029150 { width: 4.267in; height: 6.9in; }
+div#fig30 { width: 4.1in; }
+img#x030072 { width: 1px; height: 1px; }
+img#x030150 { width: 4.0in; height: 6.8in; }
+div#fig31 { width: 7.0in;  }
+img#x031072 { width: 1px; height: 1px; }
+img#x031150 { width: 4.253in; height: 4.993in; }
+div#fig32 { width: 7.0in;  }
+img#x032072 { width: 1px; height: 1px; }
+img#x032150 { width: 4.2in; height: 3.787in; }
+div#fig33 { width: 7.0in;  }
+img#x033072 { width: 1px; height: 1px; }
+img#x033150 { width: 4.2in; height: 3.613in; }
+div#fig34 { width: 4.6in;  }
+img#x034072 { width: 1px; height: 1px; }
+img#x034150 { width: 4.5in; height: 2.74in; }
+div#fig35 { width: 7.5in;  }
+img#x035072 { width: 1px; height: 1px; }
+img#x035150 { width: 7.5in; height: 4.64in; }
+div#fig36 { width: 4.6in;  }
+img#x036072 { width: 1px; height: 1px; }
+img#x036150 { width: 4.553in; height: 4.533in; }
+div#fig37 { width: 4.0in;  }
+img#x037072 { width: 1px; height: 1px; }
+img#x037150 { width: 3.627in; height: 4.633in; }
+div#fig38 { width: 7.0in;  }
+img#x038072 { width: 1px; height: 1px; }
+img#x038150 { width: 4.36in; height: 1.747in; }
+div#fig39 { width: 4.5in;  }
+img#x039072 { width: 1px; height: 1px; }
+img#x039150 { width: 4.373in; height: 3.567in; }
+div#fig40 { width: 3.7in;  }
+img#x040072 { width: 1px; height: 1px; }
+img#x040150 { width: 3.62in; height: 4.527in; }
+div#fig41 { width: 4.7in;  }
+img#x041072 { width: 1px; height: 1px; }
+img#x041150 { width: 4.573in; height: 6.2in; }
+div#fig42 { width: 7.0in;  }
+img#x042072 { width: 1px; height: 1px; }
+img#x042150 { width: 4.6in; height: 3.107in; }
+div#fig43 { width: 7.0in;  }
+img#x043072 { width: 1px; height: 1px; }
+img#x043150 { width: 4.353in; height: 2.367in; }
+div#fig44 { width: 7.0in;  }
+img#x044072 { width: 1px; height: 1px; }
+img#x044150 { width: 4.5in; height: 1.707in; }
+div#fig45 { width: 7.0in;  }
+img#x045072 { width: 1px; height: 1px; }
+img#x045150 { width: 3.127in; height: 2.733in; }
+div#fig46 { width: 3.2in;  }
+img#x046072 { width: 1px; height: 1px; }
+img#x046150 { width: 3.1in; height: 4.16in; }
+div#fig47 { width: 4.2in;  }
+img#x047072 { width: 1px; height: 1px; }
+img#x047150 { width: 4.1in; height: 1.5in; }
+div#fig48 { width: 4.9in;  }
+img#x048072 { width: 1px; height: 1px; }
+img#x048150 { width: 4.72in; height: 3.373in; }
+div#fig49 { width: 3.4in;  }
+img#x049072 { width: 1px; height: 1px; }
+img#x049150 { width: 3.253in; height: 2.753in; }
+div#fig50 { width: 2.9in;  }
+img#x050072 { width: 1px; height: 1px; }
+img#x050150 { width: 2.807in; height: 3.813in; }
+div#fig51 { width: 4.6in;  }
+img#x051072 { width: 1px; height: 1px; }
+img#x051150 { width: 4.5in; height: 0.9in; }
+div#fig52 { width: 1.7in;  }
+img#x052072 { width: 1px; height: 1px; }
+img#x052150 { width: 1.373in; height: 1.4in; }
+div#fig53 { width: 2.4in;  }
+img#x053072 { width: 1px; height: 1px; }
+img#x053150 { width: 1.573in; height: 2.12in; }
+div#fig54 { width: 7.0in;  }
+img#x054072 { width: 1px; height: 1px; }
+img#x054150 { width: 4.253in; height: 2.247in; }
+div#fig55 { width: 7.0in;  }
+img#x055072 { width: 1px; height: 1px; }
+img#x055150 { width: 4.4in; height: 3.4in; }
+div#fig56 { width: 7.0in;  }
+img#x056072 { width: 1px; height: 1px; }
+img#x056150 { width: 4.387in; height: 4.8in; }
+div#fig57 { width: 4.6in;  }
+img#x057072 { width: 1px; height: 1px; }
+img#x057150 { width: 4.5in; height: 4.7in; }
+div#fig58 { width: 7.0in;  }
+img#x058072 { width: 1px; height: 1px; }
+img#x058150 { width: 4.66in; height: 2.14in; }
+div#fig59 { width: 4.6in;  }
+img#x059072 { width: 1px; height: 1px; }
+img#x059150 { width: 4.5in; height: 3.387in; }
+div#fig60 { width: 7.0in;  }
+img#x060072 { width: 1px; height: 1px; }
+img#x060150 { width: 4.627in; height: 1.68in; }
+div#fig61 { width: 3.3in;  }
+img#x061072 { width: 1px; height: 1px; }
+img#x061150 { width: 2.653in; height: 4.107in; }
+div#fig62 { width: 3.3in;  }
+img#x062072 { width: 1px; height: 1px; }
+img#x062150 { width: 2.093in; height: 2.3in; }
+div#fig63 { width: 3.3in;  }
+img#x063072 { width: 1px; height: 1px; }
+img#x063150 { width: 3.187in; height: 4.407in; }
+div#fig64 { width: 4.1in;  }
+img#x064072 { width: 1px; height: 1px; }
+img#x064150 { width: 4.0in; height: 3.093in; }
+div#fig65 { width: 4.1in;  }
+img#x065072 { width: 1px; height: 1px; }
+img#x065150 { width: 3.373in; height: 3.193in; }
+div#fig66 { width: 4.1in;  }
+img#x066072 { width: 1px; height: 1px; }
+img#x066150 { width: 3.5in; height: 2.487in; }
+div#fig67 { width: 7.0in;  }
+img#x067072 { width: 1px; height: 1px; }
+img#x067150 { width: 4.653in; height: 1.053in; }
+div#fig68 { width: 2.5in;  }
+img#x068072 { width: 1px; height: 1px; }
+img#x068150 { width: 2.127in; height: 1.827in; }
+div#fig69 { width: 2.4in;  }
+img#x069072 { width: 1px; height: 1px; }
+img#x069150 { width: 1.267in; height: 1.147in; }
+div#fig70 { width: 2.6in;  }
+img#x070072 { width: 1px; height: 1px; }
+img#x070150 { width: 2.373in; height: 2.353in; }
+div#fig71 { width: 4.6in;  }
+img#x071072 { width: 1px; height: 1px; }
+img#x071150 { width: 4.5in; height: 7in; }
+div#fig72-1 { width: 6.9in;  }
+img#x072-1072 { width: 1px; height: 1px; }
+img#x072-1150 { width: 3.333in; height: 5.4in; }
+div#fig72-2 { width: 6.9in;  }
+img#x072-2072 { width: 1px; height: 1px; }
+img#x072-2150 { width: 3.9in; height: 6.8in; }
+div#fig73 { width: 6.9in;  }
+img#x073072 { width: 1px; height: 1px; }
+img#x073150 { width: 4.5in; height: 5.0in; }
+div#fig74 { width: 6.9in;  }
+img#x074072 { width: 1px; height: 1px; }
+img#x074150 { width: 2.06in; height: 3.62in; }
+div#fig75 { width: 6.9in;  }
+img#x075072 { width: 1px; height: 1px; }
+img#x075150 { width: 4.393in; height: 4.9in; }
+div#fig76 { width: 6.9in;  }
+img#x076072 { width: 1px; height: 1px; }
+img#x076150 { width: 4.0in; height: 6.953in; }
+div#fig77-1 { width: 6.9in;  }
+img#x077-1072 { width: 1px; height: 1px; }
+img#x077-1150 { width: 4.387in; height: 6.3in; }
+div#fig77-2 { width: 6.9in;  }
+img#x077-2072 { width: 1px; height: 1px; }
+img#x077-2150 { width: 4.32in; height: 6.967in; }
+div#fig78 { width: 6.9in;  }
+img#x078072 { width: 1px; height: 1px; }
+img#x078150 { width: 4.147in; height: 4.9in; }
+div#fig79 { width: 6.9in;  }
+img#x079072 { width: 1px; height: 1px; }
+img#x079150 { width: 1.673in; height: 4.2in; }
+div#fig80 { width: 6.9in;  }
+img#x080072 { width: 1px; height: 1px; }
+img#x080150 { width: 4.287in; height: 6.4in; }
+div#fig81 { width: 6.9in;  }
+img#x081072 { width: 1px; height: 1px; }
+img#x081150 { width: 4.033in; height: 5.7in; }
+div#fig82 { width: 6.9in;  }
+img#x082072 { width: 1px; height: 1px; }
+img#x082150 { width: 1.987in; height: 6.6in; }
+div#fig83-1 { width: 6.9in;  }
+img#x083-1072 { width: 1px; height: 1px; }
+img#x083-1150 { width: 3.267in; height: 6.8in; }
+div#fig83-2 { width: 6.9in;  }
+img#x083-2072 { width: 1px; height: 1px; }
+img#x083-2150 { width: 4.253in; height: 5.273in; }
+div#fig84 { width: 6.9in;  }
+img#x084072 { width: 1px; height: 1px; }
+img#x084150 { width: 2.333in; height: 6.0in; }
+div#fig85 { width: 6.9in;  }
+img#x085072 { width: 1px; height: 1px; }
+img#x085150 { width: 3.74in; height: 6.1in; }
+div#fig86 { width: 6.9in;  }
+img#x086072 { width: 1px; height: 1px; }
+img#x086150 { width: 3.667in; height: 5.3in; }
+div#fig87 { width: 6.9in;  }
+img#x087072 { width: 1px; height: 1px; }
+img#x087150 { width: 3.867in; height: 4.6in; }
+div#fig88 { width: 2.4in;  }
+img#x088072 { width: 1px; height: 1px; }
+img#x088150 { width: 2.253in; height: 2.153in; }
+div#fig89 { width: 6.9in;  }
+img#x089072 { width: 1px; height: 1px; }
+img#x089150 { width: 4.1in; height: 6.0in; }
+div#fig90-1 { width: 6.9in;  }
+img#x090-1072 { width: 1px; height: 1px; }
+img#x090-1150 { width: 4.507in; height: 4.253in; }
+div#fig90-2 { width: 6.9in;  }
+img#x090-2072 { width: 1px; height: 1px; }
+img#x090-2150 { width: 4.507in; height: 4.253in; }
+div#fig91 { width: 2.6in;  }
+img#x091072 { width: 1px; height: 1px; }
+img#x091150 { width: 2.4in; height: 6.0in; }
+div#fig92 { width: 6.9in;  }
+img#x092072 { width: 1px; height: 1px; }
+img#x092150 { width: 4.5in; height: 5.5in; }
+div#fig93 { width: 6.9in;  }
+img#x093072 { width: 1px; height: 1px; }
+img#x093150 { width: 4.52in; height: 5.02in; }
+div#fig94 { width: 6.9in;  }
+img#x094072 { width: 1px; height: 1px; }
+img#x094150 { width: 4.567in; height: 5.0in; }
+div#fig95 { width: 6.9in;  }
+img#x095072 { width: 1px; height: 1px; }
+img#x095150 { width: 3.687in; height: 3.927in; }
+div#fig96 { width: 6.9in;  }
+img#x096072 { width: 1px; height: 1px; }
+img#x096150 { width: 4.4in; height: 4.5in; }
+div#fig97 { width: 6.9in;  }
+img#x097072 { width: 1px; height: 1px; }
+img#x097150 { width: 3.633in; height: 5.9in; }
+div#fig98 { width: 6.9in;  }
+img#x098072 { width: 1px; height: 1px; }
+img#x098150 { width: 4.573in; height: 2.8in; }
+div#fig99 { width: 1.8in;  }
+img#x099072 { width: 1px; height: 1px; }
+img#x099150 { width: 1.373in; height: 2.207in; }
+div#fig100 { width: 4.2in;  }
+img#x100072 { width: 1px; height: 1px; }
+img#x100150 { width: 4.0in; height: 6.287in; }
+div#fig101 { width: 6.9in;  }
+img#x101072 { width: 1px; height: 1px; }
+img#x101150 { width: 4.667in; height: 5.187in; }
+div#fig102 { width: 6.9in;  }
+img#x102072 { width: 1px; height: 1px; }
+img#x102150 { width: 4.3in; height: 5.0in; }
+div#fig103 { width: 6.9in;  }
+img#x103072 { width: 1px; height: 1px; }
+img#x103150 { width: 3.893in; height: 2.7in; }
+div#fig104 { width: 6.9in;  }
+img#x104072 { width: 1px; height: 1px; }
+img#x104150 { width: 3.86in; height: 3.2in; }
+div#fig105 { width: 6.9in;  }
+img#x105072 { width: 1px; height: 1px; }
+img#x105150 { width: 4.5in; height: 8in; }
+div#fig106 { width: 4.7in;  }
+img#x106072 { width: 1px; height: 1px; }
+img#x106150 { width: 4.553in; height: 1.9in; }
+div#fig107 { width: 6.9in;  }
+img#x107072 { width: 1px; height: 1px; }
+img#x107150 { width: 6in; height: 2.5in; }
+div#fig108 { width: 4.7in;  }
+img#x108072 { width: 1px; height: 1px; }
+img#x108150 { width: 4.5in; height: 3.5in; }
+div#fig109 { width: 6.9in;  }
+img#x109072 { width: 1px; height: 1px; }
+img#x109150 { width: 6.873in; height: 7.967in; }
+

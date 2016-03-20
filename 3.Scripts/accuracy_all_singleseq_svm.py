@@ -8,14 +8,14 @@ def autolabel(rects):
                 '%s' % float(height),
                 ha='center', va='bottom')
 
-n_groups = 5
+n_groups = 6
 
-accuracy = [0.7416, 0.7581, 0.7643, 0.7571, 0.3387]
+accuracy = [0.6291, 0.6422, 0.6023, 0.6123, 0.6919, 0.5847]
 
 fig, ax = plt.subplots()
 
 index = np.arange(n_groups)
-bar_width = 0.35
+bar_width = 0.45
 
 error_config = {'ecolor': '0.3'}
 
@@ -26,11 +26,11 @@ rect = plt.bar(index, accuracy, bar_width,
 
 autolabel(rect)
 
-plt.axis([-0.2, 5, 0, 1])
+plt.axis([-0.2, 6, 0, 0.85])
 
-plt.xlabel('SVM adding evolutionary information tested kernels')
-plt.ylabel('Global kernel Accuracy')
-plt.title('Accuracy of SVM kernels adding evolutionary information')
-plt.xticks(index + bar_width/2, ('-t 0 -j 2.35', '-t 1 -j 2.35', '-t 2 -j 2.35', '*-c 2.5 -g 0.5', '-t 3 -j 2.35'))
+plt.xlabel('SVM single sequence predicting helices; linear kernel default parameters')
+plt.ylabel('Accuracy')
+plt.title('Accuracy for single sequence predicting helices - test program')
+plt.xticks(index + bar_width/2, ('global Accuracy', 'set_1', 'set_2', 'set_3', 'set_4', 'set_5'))
 plt.tight_layout()
 plt.show()

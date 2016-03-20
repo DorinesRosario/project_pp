@@ -1,0 +1,436 @@
+﻿body {
+	width: 578px;
+	margin: 1px;
+	font: 1em Times New Roman, Times, serif;
+	color: #333;
+	background-color: white;
+}
+body.schematic {
+	width: 800px; 
+}
+
+/* Looks like you have to specify the width of #menu or IE5 Mac stretches it all the way across the div, and Opera streches it half way. */
+#menu {
+	font-family: Arial, Verdana, sans-serif;
+	border: 1px solid #000;
+	float: right;
+	width: 230px;
+	background: #eee;
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+}
+#menu h1 {
+	font-size: 12px;
+	font-weight: 900;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background: #aaa;
+}
+#menu p.l1 {
+	color: #336;
+	font-size: 11px;
+	margin: 5px 0px 0px 3px;
+	text-decoration: none;
+}
+#menu p.l2 {
+	color: #F30;
+	font-size: 10px;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+	text-decoration: none;
+}
+#menu p.l3 {
+	color: #000;
+	font-size: 10px;
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+	font-weight: 900;
+	text-decoration: none;
+}
+#menu p.l4 {
+	color: #336;
+	font-size: 9px;
+	margin: 0px 0px 0px 30px;
+	padding: 0px;
+	text-decoration: none;
+}
+#menu p.r1 {
+	color: #336;
+	font-size: 10px;
+	margin-right: 2px;
+	padding: 0px;
+	text-decoration: none;
+	text-align: right;
+}
+#menu a {
+	text-decoration: none;
+	font-weight: normal;
+	color: #009;
+}
+#menu a:link { }
+#menu a:visited { }
+#menu a:active { }
+#menu a:hover { text-decoration: underline; }
+#navigate {
+	font-size: 90%;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+img.banner072 { width: 345px; height: 53px; }
+img.banner150 { width: 1px; height: 1px; }
+div#fig1 { width: 380px; }
+img#x001072 { width: 312px; height: 360px; margin-left: 34px; }
+img#x001150 { width: 1px; height: 1px; }
+div#fig2 { width: 510px; }
+img#x002072 { width: 500px; height: 409px; }
+img#x002150 { width: 1px; height: 1px; }
+div#fig3 { width: 230px; }
+img#x003072 { width: 220px; height: 174px; }
+img#x003150 { width: 1px; height: 1px; }
+div#fig4 { width: 300px; }
+img#x004072 { width: 153px; height: 119px; margin-left: 70px; }
+img#x004150 { width: 1px; height: 1px; }
+div#fig5 { width: 300px; }
+img#x005072 { width: 144px; height: 273px; margin-left: 70px; }
+img#x005150 { width: 1px; height: 1px; }
+div#fig6 { width: 300px; }
+img#x006072 { width: 81px; height: 102px; margin-left: 100px; }
+img#x006150 { width: 1px; height: 1px; }
+div#fig7c { width: 570px; }
+div#fig7 { width: 254px; }
+img#x007072 { width: 254px; height: 254px; }
+img#x007150 { width: 1px; height: 1px; }
+div#fig7x { width: 259px; }
+img#x007x072 { width: 259px; height: 256px; }
+img#x007x150 { width: 1px; height: 1px; }
+div#fig8c { width: 570px; }
+div#fig8 { width: 254px; }
+img#x008072 { width: 254px; height: 254px; }
+img#x008150 { width: 1px; height: 1px; }
+div#fig8x { width: 259px; }
+img#x008x072 { width: 259px; height: 256px; }
+img#x008x150 { width: 1px; height: 1px; }
+div#fig9 { width: 274px; }
+img#x009072 { width: 264px; height: 267px; }
+img#x009150 { width: 1px; height: 1px; }
+div#fig10 { width: 271px; }
+img#x010072 { width: 261px; height: 265px; }
+img#x010150 { width: 1px; height: 1px; }
+div#fig11 { width: 338px; }
+img#x011072 { width: 328px; height: 211px; }
+img#x011150 { width: 1px; height: 1px; }
+div#fig12 { width: 280px; }
+img#x012072 { width: 261px; height: 157px; }
+img#x012150 { width: 1px; height: 1px; }
+div#fig13 { width: 550px; }
+img#x013072 { width: 483px; height: 294px; }
+img#x013150 { width: 1px; height: 1px; }
+div#fig14 { width: 145px; }
+img#x014072 { width: 135px; height: 144px; }
+img#x014150 { width: 1px; height: 1px; }
+div#fig15 { width: 550px; }
+img#x015072 { width: 363px; height: 64px; }
+img#x015150 { width: 1px; height: 1px; }
+div#fig16 { width: 550px; }
+img#x016072 { width: 318px; height: 135px; }
+img#x016150 { width: 1px; height: 1px; }
+div#fig17 { width: 550px;  margin: 0 auto; }
+img#x017072 { width: 324px; height: 105px; }
+img#x017150 { width: 1px; height: 1px; }
+div#fig18 { width: 550px;  margin: 0 auto; }
+img#x018072 { width: 321px; height: 49px; }
+img#x018150 { width: 1px; height: 1px; }
+div#fig19 { width: 550px; margin: 0 auto; }
+img#x019072 { width: 306px; height: 481px; }
+img#x019150 { width: 1px; height: 1px; }
+div#fig20 { width: 342px; }
+img#x020072 { width: 332px; height: 233px; }
+img#x020150 { width: 1px; height: 1px; }
+div#fig21 { width: 337px; }
+img#x021072 { width: 327px; height: 256px; }
+img#x021150 { width: 1px; height: 1px; }
+div#fig22 { width: 550px; }
+img#x022072 { width: 297px; height: 280px; }
+img#x022150 { width: 1px; height: 1px; }
+div#fig23 { width: 250px; }
+img#x023072 { width: 125px; height: 130px; }
+img#x023150 { width: 1px; height: 1px; }
+div#fig24 { width: 334px; }
+img#x024072 { width: 324px; height: 101px; }
+img#x024150 { width: 1px; height: 1px; }
+div#fig25 { width: 250px; }
+img#x025072 { width: 108px; height: 79px; }
+img#x025150 { width: 1px; height: 1px; }
+div#fig26 { width: 334px; }
+img#x026072 { width: 324px; height: 109px; }
+img#x026150 { width: 1px; height: 1px; }
+div#fig27a { width: 550px;  margin: 0 auto; }
+img#x027a072 { width: 252px; height: 263px; margin-bottom: 25px; }
+img#x027a150 { width: 1px; height: 1px; }
+div#fig27b { width: 550px;  margin: 0 auto; }
+img#x027b072 { width: 320px; height: 212px; }
+img#x027b150 { width: 1px; height: 1px; }
+div#fig27c { width: 550px;  margin: 0 auto; }
+img#x027c072 { width: 338px; height: 396px; }
+img#x027c150 { width: 1px; height: 1px; }
+div#fig28 { width: 360px;  margin: 0 auto; }
+img#x028072 { width: 324px; height: 432px; }
+img#x028150 { width: 1px; height: 1px; }
+div#fig29 { width: 360px; margin: 0 auto; }
+img#x029072 { width: 307px; height: 497px; }
+img#x029150 { width: 1px; height: 1px; }
+div#fig30 { width: 298px; }
+img#x030072 { width: 288px; height: 490px; }
+img#x030150 { width: 1px; height: 1px; }
+div#fig31 { width: 550px; }
+img#x031072 { width: 306px; height: 360px; }
+img#x031150 { width: 1px; height: 1px; }
+div#fig32 { width: 550px; }
+img#x032072 { width: 302px; height: 273px; }
+img#x032150 { width: 1px; height: 1px; }
+div#fig33 { width: 550px; }
+img#x033072 { width: 302px; height: 260px; }
+img#x033150 { width: 1px; height: 1px; }
+div#fig34 { width: 550px; }
+img#x034072 { width: 324px; height: 197px; }
+img#x034150 { width: 1px; height: 1px; }
+div#fig35 { width: 550px; }
+img#x035072 { width: 540px; height: 334px; }
+img#x035150 { width: 1px; height: 1px; }
+div#fig36 { width: 338px; }
+img#x036072 { width: 328px; height: 327px; }
+img#x036150 { width: 1px; height: 1px; }
+div#fig37 { width: 290px; }
+img#x037072 { width: 261px; height: 334px; }
+img#x037150 { width: 1px; height: 1px; }
+div#fig38 { width: 324px; }
+img#x038072 { width: 314px; height: 126px; }
+img#x038150 { width: 1px; height: 1px; }
+div#fig39 { width: 325px; margin: 0 auto; }
+img#x039072 { width: 315px; height: 257px; }
+img#x039150 { width: 1px; height: 1px; }
+div#fig40 { width: 271px; }
+img#x040072 { width: 261px; height: 326px; }
+img#x040150 { width: 1px; height: 1px; }
+div#fig41 { width: 339px; }
+img#x041072 { width: 329px; height: 446px; }
+img#x041150 { width: 1px; height: 1px; }
+div#fig42 { width: 341px; }
+img#x042072 { width: 331px; height: 224px; }
+img#x042150 { width: 1px; height: 1px; }
+div#fig43 { width: 550px; }
+img#x043072 { width: 313px; height: 170px; }
+img#x043150 { width: 1px; height: 1px; }
+div#fig44 { width: 550px; }
+img#x044072 { width: 324px; height: 123px; }
+img#x044150 { width: 1px; height: 1px; }
+div#fig45 { width: 235px; }
+img#x045072 { width: 225px; height: 197px; }
+img#x045150 { width: 1px; height: 1px; }
+div#fig46 { width: 233px; }
+img#x046072 { width: 223px; height: 299px; }
+img#x046150 { width: 1px; height: 1px; }
+div#fig47 { width: 305px;  margin: 0 auto; }
+img#x047072 { width: 295px; height: 108px; }
+img#x047150 { width: 1px; height: 1px; }
+div#fig48 { width: 350px;  margin: 0 auto; }
+img#x048072 { width: 340px; height: 243px; }
+img#x048150 { width: 1px; height: 1px; }
+div#fig49 { width: 244px; }
+img#x049072 { width: 234px; height: 198px; }
+img#x049150 { width: 1px; height: 1px; }
+div#fig50 { width: 212px; }
+img#x050072 { width: 202px; height: 274px; }
+img#x050150 { width: 1px; height: 1px; }
+div#fig51 { width: 334px; }
+img#x051072 { width: 324px; height: 65px; }
+img#x051150 { width: 1px; height: 1px; }
+div#fig52 { width: 180px; }
+img#x052072 { width: 99px; height: 101px; }
+img#x052150 { width: 1px; height: 1px; }
+div#fig53 { width: 200px; }
+img#x053072 { width: 113px; height: 152px; }
+img#x053150 { width: 1px; height: 1px; }
+div#fig54 { width: 550px; }
+img#x054072 { width: 306px; height: 162px; }
+img#x054150 { width: 1px; height: 1px; }
+div#fig55 { width: 550px; }
+img#x055072 { width: 317px; height: 245px; }
+img#x055150 { width: 1px; height: 1px; }
+div#fig56 { width: 550px; }
+img#x056072 { width: 316px; height: 346px; }
+img#x056150 { width: 1px; height: 1px; }
+div#fig57 { width: 334px; }
+img#x057072 { width: 324px; height: 338px; }
+img#x057150 { width: 1px; height: 1px; }
+div#fig58 { width: 550px; }
+img#x058072 { width: 335px; height: 154px; }
+img#x058150 { width: 1px; height: 1px; }
+div#fig59 { width: 370px; }
+img#x059072 { width: 324px; height: 244px; }
+img#x059150 { width: 1px; height: 1px; }
+div#fig60 { width: 550px; }
+img#x060072 { width: 333px; height: 121px; }
+img#x060150 { width: 1px; height: 1px; }
+div#fig61 { width: 240px; }
+img#x061072 { width: 191px; height: 296px; }
+img#x061150 { width: 1px; height: 1px; }
+div#fig62 { width: 240px; }
+img#x062072 { width: 151px; height: 166px; }
+img#x062150 { width: 1px; height: 1px; }
+div#fig63 { width: 240px; }
+img#x063072 { width: 230px; height: 317px; }
+img#x063150 { width: 1px; height: 1px; }
+div#fig64 { width: 300px; }
+img#x064072 { width: 288px; height: 223px; }
+img#x064150 { width: 1px; height: 1px; }
+div#fig65 { width: 300px; }
+img#x065072 { width: 243px; height: 230px; }
+img#x065150 { width: 1px; height: 1px; }
+div#fig66 { width: 300px; }
+img#x066072 { width: 252px; height: 179px; }
+img#x066150 { width: 1px; height: 1px; }
+div#fig67 { width: 550px; }
+img#x067072 { width: 335px; height: 76px; }
+img#x067150 { width: 1px; height: 1px; }
+div#fig68 { width: 200px; }
+img#x068072 { width: 153px; height: 132px; }
+img#x068150 { width: 1px; height: 1px; }
+div#fig69 { width: 250px; }
+img#x069072 { width: 91px; height: 83px; }
+img#x069150 { width: 1px; height: 1px; }
+div#fig70 { width: 250px; }
+img#x070072 { width: 171px; height: 169px; }
+img#x070150 { width: 1px; height: 1px; }
+div#fig71 { width: 550px; }
+img#x071072 { width: 324px; height: 504px; }
+img#x071150 { width: 1px; height: 1px; }
+div#fig72-1 { width: 550px; }
+img#x072-1072 { width: 400px; height: 648px; }
+img#x072-1150 { width: 1px; height: 1px; }
+div#fig72-2 { width: 550px; }
+img#x072-2072 { width: 468px; height: 816px; }
+img#x072-2150 { width: 1px; height: 1px; }
+div#fig73 { width: 550px; }
+img#x073072 { width: 540px; height: 600px; }
+img#x073150 { width: 1px; height: 1px; }
+div#fig74 { width: 550px; }
+img#x074072 { width: 247px; height: 435px; }
+img#x074150 { width: 1px; height: 1px; }
+div#fig75 { width: 550px; }
+img#x075072 { width: 527px; height: 588px; }
+img#x075150 { width: 1px; height: 1px; }
+div#fig76 { width: 338px; }
+img#x076072 { width: 480px; height: 834px; }
+img#x076150 { width: 1px; height: 1px; }
+div#fig77-1 { width: 550px;  margin: 0 auto; }
+img#x077-1072 { width: 526px; height: 756px; }
+img#x077-1150 { width: 1px; height: 1px; }
+div#fig77-2 { width: 550px;  margin: 0 auto; }
+img#x077-2072 { width: 518px; height: 836px; }
+img#x077-2150 { width: 1px; height: 1px; }
+div#fig78 { width: 550px;  margin: 0 auto; }
+img#x078072 { width: 497px; height: 588px; }
+img#x078150 { width: 1px; height: 1px; }
+div#fig79 { width: 550px; margin: 0 auto; }
+img#x079072 { width: 200px; height: 504px; }
+img#x079150 { width: 1px; height: 1px; }
+div#fig80 { width: 550px; }
+img#x080072 { width: 515px; height: 768px; }
+img#x080150 { width: 1px; height: 1px; }
+div#fig81 { width: 550px; }
+img#x081072 { width: 484px; height: 684px; }
+img#x081150 { width: 1px; height: 1px; }
+div#fig82 { width: 550px; }
+img#x082072 { width: 238px; height: 792px; }
+img#x082150 { width: 1px; height: 1px; }
+div#fig83-1 { width: 550px; }
+img#x083-1072 { width: 392px; height: 816px; }
+img#x083-1150 { width: 1px; height: 1px; }
+div#fig83-2 { width: 550px; }
+img#x083-2072 { width: 510px; height: 633px; }
+img#x083-2150 { width: 1px; height: 1px; }
+div#fig84 { width: 550px; }
+img#x084072 { width: 280px; height: 720px; }
+img#x084150 { width: 1px; height: 1px; }
+div#fig85 { width: 550px; }
+img#x085072 { width: 448px; height: 732px; }
+img#x085150 { width: 1px; height: 1px; }
+div#fig86 { width: 500px; }
+img#x086072 { width: 440px; height: 636px; }
+img#x086150 { width: 1px; height: 1px; }
+div#fig87 { width: 500px; }
+img#x087072 { width: 276px; height: 331px; }
+img#x087150 { width: 1px; height: 1px; }
+div#fig88 { width: 200px; }
+img#x088072 { width: 162px; height: 155px; }
+img#x088150 { width: 1px; height: 1px; }
+div#fig89 { width: 305px; margin: 0 auto; }
+img#x089072 { width: 295px; height: 432px; }
+img#x089150 { width: 1px; height: 1px; }
+div#fig90-1 { width: 550px; }
+img#x090-1072 { width: 308px; height: 324px; }
+img#x090-1150 { width: 1px; height: 1px; }
+div#fig90-2 { width: 550px; }
+img#x090-2072 { width: 324px; height: 306px; }
+img#x090-2150 { width: 1px; height: 1px; }
+div#fig91 { width: 183px; }
+img#x091072 { width: 173px; height: 432px; }
+img#x091150 { width: 1px; height: 1px; }
+div#fig92 { width: 550px; }
+img#x092072 { width: 324px; height: 396px; }
+img#x092150 { width: 1px; height: 1px; }
+div#fig93 { width: 550px; }
+img#x093072 { width: 325px; height: 361px; }
+img#x093150 { width: 1px; height: 1px; }
+div#fig94 { width: 550px; }
+img#x094072 { width: 329px; height: 360px; }
+img#x094150 { width: 1px; height: 1px; }
+div#fig95 { width: 276px; }
+img#x095072 { width: 266px; height: 283px; }
+img#x095150 { width: 1px; height: 1px; }
+div#fig96 { width: 550px; }
+img#x096072 { width: 317px; height: 324px; }
+img#x096150 { width: 1px; height: 1px; }
+div#fig97 { width: 550px;  margin: 0 auto; }
+img#x097072 { width: 261px; height: 425px; }
+img#x097150 { width: 1px; height: 1px; }
+div#fig98 { width: 550px;  margin: 0 auto; }
+img#x098072 { width: 329px; height: 202px; }
+img#x098150 { width: 1px; height: 1px; }
+div#fig99 { width: 210px; }
+img#x099072 { width: 99px; height: 159px; }
+img#x099150 { width: 1px; height: 1px; }
+div#fig100 { width: 320px; }
+img#x100072 { width: 288px; height: 452px; }
+img#x100150 { width: 1px; height: 1px; }
+div#fig101 { width: 550px; }
+img#x101072 { width: 336px; height: 373px; }
+img#x101150 { width: 1px; height: 1px; }
+div#fig102 { width: 550px; }
+img#x102072 { width: 310px; height: 360px; }
+img#x102150 { width: 1px; height: 1px; }
+div#fig103 { width: 550px; }
+img#x103072 { width: 280px; height: 194px; }
+img#x103150 { width: 1px; height: 1px; }
+div#fig104 { width: 550px; }
+img#x104072 { width: 278px; height: 230px; }
+img#x104150 { width: 1px; height: 1px; }
+div#fig105 { width: 550px; }
+img#x105072 { width: 324px; height: 576px; }
+img#x105150 { width: 1px; height: 1px; }
+div#fig106 { width: 550px; }
+img#x106072 { width: 328px; height: 137px; }
+img#x106150 { width: 1px; height: 1px; }
+div#fig107 { width: 550px;  margin: 0 auto; }
+img#x107072 { width: 432px; height: 180px; }
+img#x107150 { width: 1px; height: 1px; }
+div#fig108 { width: 550px;  margin: 0 auto; }
+img#x108072 { width: 324px; height: 252px; }
+img#x108150 { width: 1px; height: 1px; }
+div#fig109 { width: 550px; margin: 0 auto; }
+img#x109072 { width: 495px; height: 573px; }
+img#x109150 { width: 1px; height: 1px; }
+

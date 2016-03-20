@@ -6,12 +6,12 @@ import glob
 import matplotlib.pyplot as plt
 import random
 
-colors = {0:'b',1:'r',2:'g'}
-legend = {0:'-t 0; -j 1.9', 1:'-t 0; -j 2.35', 2:'-t 2; -j 2.35'}
+colors = {0:'blue',1:'red',2:'grey', 3:'green', 4:'orange', 5:'purple'}
+legend = {0:'-t 0; -j 2.35', 1:'-t 1; -j 2.35', 2:'-t 2; -j 2.35', 3:'-t2-j2.35-c2.5-g0.5', 4:'-t 3; -j2.35', 5:'final model -t2-j2.35'}
 
 
 
-os.chdir('/home/rosario/Desktop/project_pp/8.plotting/5.ROC_plot/step_3_plot_ROC_single_sequence/')
+os.chdir('/home/rosario/Desktop/project_pp/12.plots_psiblast_svm/ROC_plot/step_3_plot_ROC_single_sequence/')
 
 
 fi = 0
@@ -37,7 +37,7 @@ for files in list(glob.glob('*txt')):
 plt.legend(loc='lower right')
 plt.xlim([-0.1, 1.2])
 plt.ylim([-0.1, 1.2])
-plt.title('ROC: optimazing SVM kernels using single sequence information')
+plt.title('ROC: SVM adding evolutionary information')
 plt.ylabel('True Positive Rate')
 plt.xlabel('False Positive Rate')
 plt.show()
